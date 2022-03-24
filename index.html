@@ -18,36 +18,34 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div id="scroll-buttons">
-            <div id="scroll-up-button" class="scroll-button hidden">
-                <span class="material-icons-outlined">
-                    expand_less
-                </span>
-            </div>
-            <div id="scroll-down-button" class="scroll-button">
-                <span class="material-icons-outlined">
-                    expand_more
-                </span>
-            </div>
+        <div id="top-bar">
+            <span id="top-bar-logo-container">
+                <img src="./images/chai-logo.png" id="top-bar-logo" />
+            </span>
+
+            <span id="top-bar-buttons">
+                <a href="./" id="home-button" class="top-bar-button">HOME</a>
+                <a href="./support" id="support-button" class="top-bar-button">SUPPORT</a>
+            </span>
+
+            <!-- <span id="placeholder"></span> -->
         </div>
 
-        <!-- <div id="content"> -->
-            <div id="header">
-                <span id="header-text-container">
-                    <span class="header-text one">CH.AI</span>
-                    <span class="header-text two">CH.AI</span>
-                    <span class="header-text three">CH.AI</span>
-                </span>
-            </div>
+        <div id="content-container">
+            <div id="content">
+                <div class="section 1">
+                    <span id="tea-lineart" class="material-icons-outlined">
+                        emoji_food_beverage
+                    </span>
 
-            <div id="section1" class="section one"></div>
-            
-            <div id="section2" class="section two"></div>
-            
-            <div id="section3" class="section three"></div>
-            
-            <div id="section4" class="section four"></div>
-        <!-- </div> -->
+                    <img src="./images/chai-tea.png" id="tea-image" />
+                </div>
+
+                <div class="seperator">|</div>
+
+                <div class="section 2"></div>
+            </div>
+        </div>
 
         <script src="./script.js"></script>
     </body>
